@@ -9,7 +9,7 @@ shipkit {
 allprojects {
     plugins.withId('org.shipkit.bintray') {
         bintray {
-            user = 'magneticflux'
+            user = 'bsket'
             key = System.getenv('BINTRAY_API_KEY')
 
             pkg {
