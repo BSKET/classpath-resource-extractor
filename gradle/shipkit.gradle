@@ -1,5 +1,5 @@
 shipkit {
-    gitHub.repository = 'bsket/classpath-resource-extractor'
+    gitHub.repository = 'thedarkcder/classpath-resource-extractor'
 
     gitHub.readOnlyAuthToken =   System.getenv('GH_READ_TOKEN')
 
@@ -17,9 +17,9 @@ allprojects {
                 name = 'classpath-resource-extractor'
                 licenses = ['LGPL-3.0']
                 labels = ['jvm', 'java', 'classpath', 'resource', 'extractor', 'classpath-resource', 'resource-extractor']
-                githubRepo = 'bsket/classpath-resource-extractor'
+                githubRepo = 'thedarkcder/classpath-resource-extractor'
                 githubReleaseNotesFile = 'docs/release-notes.md'
-                vcsUrl = 'https://github.com/bsket/classpath-resource-extractor.git'
+                vcsUrl = 'https://github.com/thedarkcder/classpath-resource-extractor.git'
             }
         }
     }
