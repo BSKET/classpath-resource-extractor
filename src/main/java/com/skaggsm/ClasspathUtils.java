@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.Objects;
 
 /**
- * Utilities for extracting things on the classpath.
+ * Utilities for extracting things on the classpath!
  */
 public class ClasspathUtils {
     public static Path extractResourcesToTempDirectory(String source, String prefix, ClassLoader loader) throws IOException {
